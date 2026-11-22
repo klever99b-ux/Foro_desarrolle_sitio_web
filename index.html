@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías, Sociedad y Negocios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <!--encabezado de la apgina (header)-->
+    <header>
+        <img src="imagenes/logo.jpg" alt="logo " width="120" height="auto">
+        <h1>TECNOLOGÍAS WEB.</h1>
+        <!--navegacion entre menus-->
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="page_sec/Impacto_empresarial.html">Impacto empresarial</a></li>
+                <li><a href="page_sec/impacto_social.html">Impacto social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Evolución y tendencias de las tecnologías web</h2>
+
+        <!--texto relacionado (aside)-->
+        <aside>
+            <strong><em>Evolucion de la Web</em></strong>
+            <br>
+            <video controls height="300">
+                <source src="videos/evolucion_web.mp4">
+            </video>
+            <p>La web ha pasado por etapas claras. a La <a href="https://torresburriel.com/weblog/web1-web2-web3-2/"
+                    target="_blank">Web 1.0</a> fue una web de lectura, con páginas estáticas e informativas. <br><a
+                    href="https://torresburriel.com/weblog/web1-web2-web3-2/" target="_blank">Web 2.0</a> introdujo la
+                participación: blogs, redes sociales, contenido generado por usuarios y aplicaciones dinámicas. <br> La
+                llamada <a href="https://torresburriel.com/weblog/web1-web2-web3-2/" target="_blank">Web 3.0</a> abarca
+                ideas como la web semántica, la descentralización y tecnologías
+                como blockchain, aunque su alcance real sigue en debate.</p>
+            <p>Entre las tendencias actuales destacan la inteligencia artificial integrada en servicios web
+                (asistentes, recomendaciones, automatización), las aplicaciones web progresivas (PWA) que funcionan como
+                apps móviles, el internet de las cosas, el diseño centrado en dispositivos móviles y un énfasis
+                creciente en la accesibilidad, el rendimiento y la seguridad.</p>
+            <img src="imagenes/evolucion_web.jpg" alt="evolucion web" width="250">
+
+        </aside>
+        <!--tema principal (article)-->
+        <article>
+            <h1>IMPACTO DE LAS TECNOLOGÍAS EM LOS NEGOCIOS Y LA SOCIEDAD</h1>
+            <img src="imagenes/impacto.jpg" alt="impacto tecnologico" width="450">
+            <p>Las tecnologías han cambiado la forma en que las empresas producen, venden, se comunican y toman
+                decisiones. Hoy una empresa pequeña puede vender en línea, atender clientes por redes sociales y llegar
+                a mercados que antes solo estaban al alcance de las grandes compañías.
+            </p>
+            <p>
+            <p>Estas herramientas contribuyen a que las empresas ecuatorianas sean más competitivas, reduzcan ciertos
+                costos operativos y puedan llegar a nuevos mercados. Sin embargo, también representan desafíos
+                relacionados con la seguridad informática, la capacitación tecnológica y el acceso a internet.</p>
+            </p>
+            <h2>Principales cambios</h2>
+            <ul>
+                <li>
+                    <h3>comercio electrónico</h3>
+                    <p>El comercio electrónico ha transformado la manera en que los negocios ecuatorianos ofrecen y
+                        comercializan sus productos y servicios. Actualmente, muchas empresas y pequeños emprendimientos
+                        utilizan páginas web, redes sociales y aplicaciones para promocionar sus productos y recibir
+                        pedidos por internet.</p>
+                    <p>En Ecuador, esta modalidad permite que negocios de diferentes sectores, como ropa, alimentos,
+                        tecnología, turismo y productos artesanales, puedan vender sin depender exclusivamente de un
+                        establecimiento físico,las ventas por internet permiten operar las 24 horas y llegar a clientes
+                        de otras ciudades y
+                        países.</p>
+                </li>
+                <li>
+                    <h3>Pagos digitales</h3>
+                    <p>Los pagos digitales han facilitado las actividades comerciales en Ecuador porque permiten
+                        realizar transacciones económicas sin necesidad de utilizar dinero en efectivo. Las empresas y
+                        los consumidores pueden utilizar tarjetas de crédito y débito, transferencias bancarias,
+                        aplicaciones financieras y códigos QR para pagar productos y servicios.</p>
+                    <p>Esta transformación ha beneficiado especialmente a los negocios que venden por internet, ya que
+                        pueden recibir pagos de manera más rápida y facilitar las compras a sus clientes.</p>
+                </li>
+                <li>
+                    <h3>Automatización e inteligencia artificial</h3>
+                    <p>La automatización y la inteligencia artificial están empezando a transformar los procesos de
+                        diferentes empresas ecuatorianas. Estas tecnologías permiten utilizar programas y sistemas
+                        informáticos para realizar tareas que anteriormente requerían mayor intervención humana.</p>
+
+                    <p>En los negocios, pueden utilizarse para administrar inventarios, analizar información de ventas,
+                        responder preguntas de los clientes, organizar pedidos y desarrollar estrategias de publicidad.
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <div class="form-container">
+        <h2>Contáctanos</h2>
+        <form action="/enviar-contacto" method="POST">
+
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu consulta" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje..."
+                    required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+
+        </form>
+    </div>
+
+
+    <!--pie de pagina (footer)-->
+    <footer>
+        <h6>Autor: Bonilla klever</h6>
+        <h6>Carrera: Tecnologías de laIinformacion</h6>
+        <h6>© 2026 Bonilla. Todos los derechos reservados.</h6>
+    </footer>
+</body>
+
+</html>
